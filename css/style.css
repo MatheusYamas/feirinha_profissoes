@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
+#cor_texto{
+    color: white;
+}
+
 /* Zerando o css*/
 
 *{
@@ -9,11 +13,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
-}
-
-
-#cor_texto{
-    color: white;
 }
 
 /* header */
@@ -44,7 +43,7 @@
     color: #e91e63;
   }
   
-  nav {
+  .nav_bar{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -53,10 +52,10 @@
     height: 10vh;
   }
   
-  main {
+  main{
     background: url("../img/header2.jpg") no-repeat center center;
     background-size: cover;
-    height: 92vh;
+    height: 100vh;
   }
   
   .nav-list {
@@ -89,10 +88,10 @@
     }
     .nav-list {
       position: absolute;
-      top: 8vh;
+      top: 10vh;
       right: 0;
       width: 50vw;
-      height: 92vh;
+      height: 100vh;
       background: #181818;
       flex-direction: column;
       align-items: center;
@@ -138,9 +137,17 @@
 
 /* inicio do site */
 
-.img_perfil{
-    height: 285px;
-    width: 428px;
+#perfil_img{
+    height: 400px;
+    width: 550px;
+    background: #FFF;
+}
+
+#perfil_img .img_perfil{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5%;
 }
 
 
@@ -281,14 +288,23 @@
     }
 }
 
-.img_aluno{
-    width: 500px;
-    height: 500px;
+#aluno_img .img_aluno{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
-.img_mercado{
-    width: 500px;
-    height: 275px;
+#mercado_img{
+    height: 400px;
+    width: 550px;
+    background: #FFF;
+}
+
+#mercado_img .img_mercado{
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+    object-fit: cover;
 }
 
 .depoimento_video{
