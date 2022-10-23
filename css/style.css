@@ -19,6 +19,10 @@ body {
   overflow-x: hidden;
 }
 
+#text-geral{
+  font-size: 19px;
+}
+
 /* header */
   
 nav{
@@ -69,7 +73,7 @@ main{
 /* inicio do site */
 
 #perfil_img{
-    height: 400px;
+    height: 500px;
     width: 550px;
     background: #FFF;
 }
@@ -79,6 +83,11 @@ main{
     width: 100%;
     object-fit: cover;
     border-radius: 5%;
+}
+
+#card-requisitos{
+  margin-left: 35px;
+  margin-right: 35px;
 }
 
 /* slider */
@@ -240,8 +249,8 @@ main{
 }
 
 #mercado_img{
-    height: 400px;
-    width: 550px;
+    height: 475px;
+    width: 570px;
     background: #FFF;
 }
 
