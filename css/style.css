@@ -65,9 +65,20 @@ nav ul li a:hover{
 }
   
 main{
-  background: url("../img/header2.jpg") no-repeat center center;
+  background: url("../img/header.jpg") no-repeat center center;
   background-size: cover;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.tilt-main{
+  margin-top: 300px;
+  color: white;
+  font-size: 30px;
+  text-align: center;
 }
 
 /* inicio do site */
