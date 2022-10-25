@@ -23,6 +23,16 @@ body {
   font-size: 19px;
 }
 
+::-webkit-scrollbar{
+  width: 10px;
+  background-color: #2e2e2e;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #e91e63;
+  border-radius: 10px;
+}
+
 /* header */
   
 nav{
@@ -65,7 +75,7 @@ nav ul li a:hover{
 }
   
 main{
-  background: url("../img/header.jpg") no-repeat center center;
+  background: url("../img/header.png") no-repeat center center;
   background-size: cover;
   height: 100vh;
   display: flex;
@@ -75,10 +85,11 @@ main{
 }
 
 .tilt-main{
-  margin-top: 300px;
+  margin-top: 275px;
   color: white;
-  font-size: 30px;
+  font-size: 29px;
   text-align: center;
+  font-family: 'Lato', sans-serif;
 }
 
 /* inicio do site */
