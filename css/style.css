@@ -19,10 +19,6 @@ body {
   overflow-x: hidden;
 }
 
-#text-geral{
-  font-size: 19px;
-}
-
 ::-webkit-scrollbar{
   width: 10px;
   background-color: #2e2e2e;
@@ -31,6 +27,42 @@ body {
 ::-webkit-scrollbar-thumb{
   background-color: #e91e63;
   border-radius: 10px;
+}
+
+#text-geral{
+  font-size: 19px;
+}
+
+#text-tilt{
+  font-size: 40px;
+}
+
+#text-subtilt{
+  font-size: 30px;
+}
+
+#perfil{
+  padding-top: 50px;
+}
+
+#curso{
+  padding-top: 50px;
+}
+
+#pos_graduacao{
+  padding-top: 50px;
+}
+
+#mercado_trabalho{
+  padding-top: 50px;
+}
+
+#depoimento{
+  padding-top: 50px;
+}
+
+#noticia{
+  padding-top: 50px;
 }
 
 /* header */
@@ -95,6 +127,14 @@ main{
 
 /* inicio do site */
 
+#tilt-comoe{
+  font-size: 25px;
+}
+
+#faculdades{
+  padding-top: 75px;
+}
+
 #perfil_img{
     height: 400px;
     width: 575px;
@@ -116,9 +156,9 @@ main{
 /* slider */
 
 .container-slider{
-    min-height: 70vh;
+    min-height: 50vh;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
 }
 
@@ -218,14 +258,14 @@ main{
   font-size: 16px;
   color: #FFF;
   padding: 8px 16px;
-  background-color: #4070F4;
+  background-color: #181818;
   border-radius: 6px;
   margin: 14px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 .button:hover{
-  background: #265DF2;
+  background: #e91e63;
 }
 
   .swiper-navBtn:hover{
