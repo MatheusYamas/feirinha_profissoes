@@ -1,6 +1,6 @@
 /* Fonte - import */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('./cssfont.css');
 
 #cor_texto{
     color: white;
@@ -124,7 +124,7 @@ main{
 }
 
 .tilt-main{
-  margin-top: 225px;
+  margin-top: 245px;
   color: white;
   font-size: 55px;
   text-align: center;
