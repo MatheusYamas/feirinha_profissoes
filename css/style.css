@@ -159,6 +159,11 @@ main{
   margin-right: 35px;
 }
 
+#pos-texto{
+  font-size: 19px;
+  padding-top: 50px;
+}
+
 /* slider */
 
 .container-slider{
