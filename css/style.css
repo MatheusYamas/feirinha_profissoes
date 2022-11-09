@@ -341,17 +341,10 @@ main{
     object-fit: cover;
 }
 
-.depoimento_video{
-    position: absolute;
-    top:50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: 0;
-    opacity: 0.3;
+.entrevista-video{
+    padding-left: 100px;
+    align-items: center;
+    justify-content: center;
 }
 
 #icone_footer{
